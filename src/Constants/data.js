@@ -1,7 +1,6 @@
-import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiNextdotjs, SiAngular, SiBootstrap, SiPhp, SiCodeigniter, SiMysql, SiNodedotjs } from "react-icons/si";
-import { FaFileCode, FaAlignLeft, FaWhatsapp, FaFacebookF, FaInstagram, FaTiktok, FaTwitter, FaGithub } from "react-icons/fa";
-import { MdOutlineScreenSearchDesktop, MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { FaFacebookF, FaFileCode, FaGithub, FaInstagram, FaTiktok, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 export const identity = {
   name: "Vikas Pawar",
@@ -11,7 +10,7 @@ export const identity = {
     "I create stunning website for your business, Intermediate experienced in web design and development.",
     "Hello everyone! I am Vikas Pawar, a frontend application and website developer. I am a intermediate experienced and I hope with this I can always learning something new to be able to invent digital applications that can help humans in the future. Can work alone or in a team.",
   ],
-  picture: ["/assets/images/profil.webp", "/assets/images/about.jpeg"],
+  picture: ["/vikas.webp", "/Pic.png"],
   CV: "/pdf/CV 2.pdf",
 };
 
@@ -90,18 +89,27 @@ export const aboutExperiencesList = [
 
 export const educationList = [
   {
-    years: "2020 - 2023",
-    school: "TI Global Senior Highschool",
-    competence: "Software Engineering",
+    years: "2021 - Present",
+    school: "Masai School India",
+    competence: "Full Stack Web Development",
+    description: "I have completed my bachelor's degree in Web Development from Masai School India.",
+
+  },
+
+  {
+    years: "2018 - 2021",
+    school: "Kisan Arts, Sience and Commerce College",
+    competence: "Bachelor's in Arts",
+    
   },
   {
-    years: "2017 - 2020",
-    school: "Al-Ma'ruf Junior Highschool",
+    years: "2016 - 2018",
+    school: "Rani Laxmibai Highschool",
     competence: "Junior Highschool",
   },
   {
-    years: "2011 - 2017",
-    school: "Vikasiyah 4 Elementary School",
+    years: "2015 - 2016",
+    school: "AT Patil School",
     competence: "Elementary School",
   },
 ];
@@ -271,35 +279,18 @@ export const toolList= [
 
 
 export const exprienceList = [
-  {
-    years: "2021 - 2022",
-    work: "Frontend Developer",
-    time: "Full Time | Work From Home",
-    company: "Zettabyte Pte Ltd",
-    description: "I develop an application and adding the feature into their application that called ADMTC",
-  },
 
 ];
 
 export const servicesList = [
-  {
-    title: "Software Testing",
-    ServicesIcon: MdOutlineScreenSearchDesktop,
-    description: "Software testing is the process that testing a software to make sure that software is running as expected and discover undiscover bug.",
-    services: ["Establish the right UX processes", "Create exceptional user experiences", "Discover undiscovered bug", "Save resources", "Software consultancy"],
-  },
+
   {
     title: "Web Development",
     ServicesIcon: FaFileCode,
     description: "Web development services are used to design, build, support, maintenance and evolve all types of web-based software.",
     services: ["Web application development", "Web Testing", "Web Maintenancing", "Web Data Management", "Web Bug Fixing", "Web interface building", "Web experience building"],
   },
-  {
-    title: "Content Writing",
-    ServicesIcon: FaAlignLeft,
-    description: "Content writing is the process of planning, writing and editing web content, typically for digital marketing purposes.",
-    services: ["Web content writing", "Blog writing for websites", "Social media content", "Presentation content", "CV content writing"],
-  },
+
 ];
 
 export const portfolioList = [
@@ -389,13 +380,13 @@ export const contactCardList = [
   {
     ContactIcon: BsFillTelephoneFill,
     title: "Telephone",
-    contact: "+62 891 622 164",
+    contact: "+91 7066750126",
     href: "tel:+628991622164",
   },
   {
     ContactIcon: MdEmail,
     title: "Email",
-    contact: "VikasPawarn09@gmail.com",
+    contact: "pawarvikas534@gmail.com",
     href: "https://www.google.com/intl/id/gmail/about/",
   },
   {

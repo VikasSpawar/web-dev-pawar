@@ -6,9 +6,6 @@ import { Link } from 'react-router-dom';
 
 const ProjectVisitOption = ({link , git}) => {
 
-
-
-
     const [copyStatus, setCopyStatus] = useState('');
   
     const copyToClipboard = ( ) => {

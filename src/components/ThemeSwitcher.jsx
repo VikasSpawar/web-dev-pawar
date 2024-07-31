@@ -4,8 +4,9 @@ import React, { useState, useEffect, useContext } from "react";
 import { MyContext } from "../Context/ContextProvider";
 
 const ThemeSwitcher = () => {
+
  //variable to get darkMode from local storage
- 
+
   const [isDarkMode, setIsDarkMode] = useState(JSON.parse(localStorage.getItem('darkMode'))||false);
   const { handleToolTip } = useContext(MyContext);
 
@@ -24,7 +25,6 @@ const ThemeSwitcher = () => {
     <label onClick={toggleTheme} className="relative inline-flex items-center cursor-pointer">
       <input
 
-    
         className="sr-only peer "
         defaultChecked={isDarkMode ? true : false}
         

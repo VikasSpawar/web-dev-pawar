@@ -12,8 +12,7 @@ let textColor=children!='About'&&children!='Skills' ? `text-purple-400` : `text-
         viewport={{ once: true }}
         
         className={`
-         ${toColor}
-         
+          ${toColor}
           text-7xl 
           font-extrabold 
           mb-8 

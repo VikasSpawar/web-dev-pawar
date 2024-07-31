@@ -4,12 +4,8 @@ import {FaGithub, FaLinkedin} from "react-icons/fa"
 export const GetInTouch=()=>{
 
 
-
-
-
     return(
         <div className=" p-4 text-left ">
-       
         <p>Got a project? Reach out and let's work together on something exciting. Big or small. Mobile or web.</p>
         <div className="p-2 text-xl ">
             <div className="flex  max-w-72 gap-x-4 m-4 items-center">

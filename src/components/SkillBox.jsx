@@ -7,8 +7,6 @@ const SkillBox = ({icon , title}) => {
   return (
     <div onMouseLeave={()=>handleToolTip('')} onMouseEnter={()=>handleToolTip(title)} className=' text-ellipsis m-auto   w-24 p-1'>
       <img className='w-16 m-auto' alt={title} src={icon}/>
-      {/* <p className='font-bold truncate'> {title}</p> */}
-     
     </div>
   )
 }

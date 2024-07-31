@@ -49,7 +49,7 @@ const Portfolio = () => {
       <Element name="home" className="element pt-16 w-full ">
         <div className=" py-4 bg-[url('/wave-haikei.svg')]  bg-cover bg-center lg:flex-row flex-col  flex w-full   justify-around">
           <div className="lg:w-full  flex">
-                 <motion.div
+                <motion.div
             initial={{ opacity: 0, translateX: "-40px" }}
             whileInView={{ opacity: 1, translateX: 0 }}
             viewport={{ once: true }}
@@ -98,9 +98,6 @@ const Portfolio = () => {
             </motion.div>
           </motion.div>
           </div>
-
-     
-
           <motion.div
             initial={{ opacity: 0, translateX: "40px" }}
             whileInView={{ opacity: 1, translateX: 0 }}
@@ -159,7 +156,6 @@ const Portfolio = () => {
                       )
                     })
                   }
-           
                 </Slider>
               </div>
             </div>
