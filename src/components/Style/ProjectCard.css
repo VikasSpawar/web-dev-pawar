@@ -1,0 +1,5 @@
+
+.bgImg::before{
+    content: "";
+
+}
