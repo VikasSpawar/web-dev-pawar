@@ -4,7 +4,7 @@ const SectionHeader = ({ children }) => {
 let toColor= children!='About'&&children!='Skills' ? `to-purple-400` : `to-cyan-400`
 let textColor=children!='About'&&children!='Skills' ? `text-purple-400` : `text-cyan-400`
   return (
-    <div className=" h-40 pt-10">
+    <div className=" h-40 pt-10 lg:my-10 lg:pt-20">
       <motion.h1
         initial={{ opacity: 0, translateY: "20%", fontSize: "20em"}}
         whileInView={{ opacity: 1, translateY: 0, fontSize: "4.5rem" }}
