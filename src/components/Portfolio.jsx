@@ -33,8 +33,8 @@ const Portfolio = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     speed: 300,
-    autoplay: true,
-    autoplaySpeed: 4000,
+    // autoplay: true,
+    // autoplaySpeed: 4000,
     cssEase: "ease",
   };
 
