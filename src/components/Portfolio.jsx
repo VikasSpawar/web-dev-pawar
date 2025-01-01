@@ -34,7 +34,7 @@ const Portfolio = () => {
     slidesToScroll: 1,
     speed: 300,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 4000,
     cssEase: "ease",
   };
 
@@ -149,7 +149,6 @@ const Portfolio = () => {
                           key={i}
                           images={el.img}
                           title={el.title}
-                          description={el.description}
                           link={el.link}
                           git={el.git_repo}
                         />

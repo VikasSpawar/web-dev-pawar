@@ -303,6 +303,15 @@ export const portfolioList = [
     description:
       "This is a clone of Razer.com built using the MERN stack (MongoDB, Express, React, and Node.js). It provides functionalities similar to the original website, potentially including product listings, user accounts, shopping cart features, and a checkout process. The specific features can be further elaborated upon based on the project's scope." // Description with placeholders
   },
+  {
+    title: "En10 ( inspired by hotstar)",
+    subtitle: "NextJS, ReactJS, TailwindCSS , SwiperJS",
+    img: '/assets/images/En10-homepage.webp', 
+    link:'https://en10-five.vercel.app/',
+    git_repo:'https://github.com/VikasSpawar/en10',
+    description:
+      "This project is a modern streaming platform inspired by Hotstar, built using Next.js, React.js, TailwindCSS, and SwiperJS. It showcases my ability to create fast, responsive, and visually appealing applications, blending sleek design with smooth functionality." // Description with placeholders
+  },
   
   {
     title: "Pro Tasker",
@@ -381,7 +390,7 @@ export const contactCardList = [
     ContactIcon: BsFillTelephoneFill,
     title: "Telephone",
     contact: "+91 7066750126",
-    href: "tel:+628991622164",
+    href: "tel:+917066750126",
   },
   {
     ContactIcon: MdEmail,

@@ -1,33 +1,32 @@
 import React, { useEffect, useState } from "react";
-import './Style/ProjectCard.css'
+import "./Style/ProjectCard.css";
 import ProjectVisitOption from "./ProjectVisitOption";
 
 const ProjectCard = (props) => {
-const { images, description, title } = props;
+  const { images, title } = props;
 
+  const [uniqueId] = useState(
+    () => `bgImg-${Math.random().toString(36).substr(2, 9)}`
+  );
 
-const [uniqueId] = useState(() => `bgImg-${Math.random().toString(36).substr(2, 9)}`);
-
-useEffect(() => {
-  const styleTag = document.createElement('style');
-  styleTag.innerHTML = `
+  useEffect(() => {
+    const styleTag = document.createElement("style");
+    styleTag.innerHTML = `
     .${uniqueId}::before {
       background-image: url('${images}');
     }
   `;
-  document.head.appendChild(styleTag);
+    document.head.appendChild(styleTag);
 
-  return () => {
-    document.head.removeChild(styleTag);
-  };
-}, [images, uniqueId]);
+    return () => {
+      document.head.removeChild(styleTag);
+    };
+  }, [images, uniqueId]);
 
-return (
-  <div className="max-w-80 m-auto">
-  
-    <div
-    
-      className={`
+  return (
+    <div className="max-w-80 m-auto">
+      <div
+        className={`
         bgImg
         ${uniqueId}
         transition-all
@@ -59,39 +58,36 @@ return (
         justify-center
         text-center
         rounded-2xl overflow-hidden
-        before:overflow-hidden`}
-    >
-      <div
-        className=" 
+        before:overflow-hidden
+        `}
+      >
+        <div
+          className=" 
+        
         overflow-visible
         justify-center"
-      >
-      </div>
+        ></div>
 
-      <div
-        className="z-10
+        <div
+          className="z-10 
         dark:text-white
           group-hover:-translate-y-[-10px]
           transition-all
             duration-500"
-    >   <div className=''>
-            <ProjectVisitOption 
-            link={props.link}
-            git={props.git}
-            />
+        >
+          {" "}
+          <div className="">
+            <ProjectVisitOption link={props.link} git={props.git} />
           </div>
-        <div className="w-52 min-h-[66px] truncate  m-auto text-pretty"> 
-        
-          <span className="  text-2xl   tracking-wide font-semibold outlineText text-white">
-
+          <div className="w-52 min-h-[66px] truncate  m-auto text-pretty ">
+            <span className="  text-2xl   tracking-wide font-semibold outlineText text-white">
               {title}
-          </span>
-        
+            </span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-);
+  );
 };
 
 export default ProjectCard;
