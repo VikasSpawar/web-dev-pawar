@@ -24,7 +24,7 @@ const ProjectCard = (props) => {
   }, [images, uniqueId]);
 
   return (
-    <div className="max-w-80 m-auto">
+    <div className="max-w-80 m-auto ">
       <div
         className={`
         bgImg
@@ -36,7 +36,6 @@ const ProjectCard = (props) => {
         dark:bg-dark-secondary 
         container
         shadow-lg
-        hover:shadow-xl
         group 
         before:hover:scale-95
         before:hover:h-72
@@ -58,14 +57,14 @@ const ProjectCard = (props) => {
         justify-center
         text-center
         rounded-2xl overflow-hidden
-        before:overflow-hidden
+        before:overflow-hidden 
         `}
       >
         <div
           className=" 
         
         overflow-visible
-        justify-center"
+        justify-center "
         ></div>
 
         <div
@@ -73,7 +72,10 @@ const ProjectCard = (props) => {
         dark:text-white
           group-hover:-translate-y-[-10px]
           transition-all
-            duration-500"
+            duration-500
+            
+          
+            "
         >
           {" "}
           <div className="">
