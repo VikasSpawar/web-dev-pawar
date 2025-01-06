@@ -32,10 +32,11 @@ const Portfolio = () => {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3,
-    speed: 300,
-    // autoplay: true,
-    // autoplaySpeed: 4000,
-    cssEase: "ease",
+    autoplay: true,
+    speed:2000,
+    autoplaySpeed: 4000,
+    easing: "ease",
+    pauseOnHover:true,
     responsive: [
       {
         breakpoint: 1024,
@@ -162,12 +163,12 @@ const Portfolio = () => {
         <section className="mb-16 p-6 justify-center  ">
           <div className="">
             <div>
-              <div className=" py-4">
-                <Slider
+              <div className=" p-4 grid grid-cols-3 w-full gap-24">
+                {/* <Slider
                   className="p-2 mx-4  "
                   {...settings}
                   slidesToShow={screen == "sm" ? 1 : screen == "md" ? 2 : 3}
-                >
+                > */}
                   { 
                     allPortfolioList.map((el,i)=>{
                       return (
@@ -181,7 +182,7 @@ const Portfolio = () => {
                       )
                     })
                   }
-                </Slider>
+                {/* </Slider> */}
               </div>
             </div>
           </div>

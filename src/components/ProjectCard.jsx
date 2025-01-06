@@ -24,7 +24,7 @@ const ProjectCard = (props) => {
   }, [images, uniqueId]);
 
   return (
-    <div className="max-w-80 m-auto ">
+    <div className="max-w-80 m-auto w-full ">
       <div
         className={`
         bgImg
