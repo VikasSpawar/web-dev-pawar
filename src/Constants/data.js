@@ -315,7 +315,7 @@ export const portfolioList = [
   {
   title: "SpacExplore.com",
   subtitle: "React.js, Redux, Tailwind CSS",
-  img: '/assets/images/Spacexplore-homepage.webp',
+  img: '/assets/images/spacexplore-homepage.webp',
   link: 'https://spacexplore.vercel.app/',
   git_repo: 'https://github.com/Vikasspawar/spacexplore',
 
