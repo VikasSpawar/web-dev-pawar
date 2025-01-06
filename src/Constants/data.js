@@ -312,7 +312,17 @@ export const portfolioList = [
     description:
       "This project is a modern streaming platform inspired by Hotstar, built using Next.js, React.js, TailwindCSS, and SwiperJS. It showcases my ability to create fast, responsive, and visually appealing applications, blending sleek design with smooth functionality." // Description with placeholders
   },
-  
+  {
+  title: "SpacExplore.com",
+  subtitle: "React.js, Redux, Tailwind CSS",
+  img: '/assets/images/Spacexplore-homepage.webp',
+  link: 'https://spacexplore.vercel.app/',
+  git_repo: 'https://github.com/Vikasspawar/spacexplore',
+
+  description:
+    "SpacExplore.com is a web application built using React.js, Redux, and Tailwind CSS. It pulls data from the SpaceX API to display information about SpaceX launches, upcoming missions, and other relevant data. Features include real-time launch data, mission details, and spacecraft information. This app aims to provide an interactive and modern way for users to explore SpaceX's space exploration activities." 
+},
+
   {
     title: "Pro Tasker",
     subtitle: "React.js",
