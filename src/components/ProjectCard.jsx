@@ -76,8 +76,9 @@ const ProjectCard = (props) => {
           group-hover:-translate-y-[-10px]
           transition-all
             duration-500
-            relative top-72 group-hover:top-16
+            relative top-96 group-hover:top-16
             backdrop-blur-lg shadow-lg p-2 rounded-xl shadow-black  dark:bg-dark-secondary
+           
             "
         >
           {" "}
@@ -90,14 +91,14 @@ const ProjectCard = (props) => {
             </span>
           </div>
         </div>
-        <div className=" min-h-[66px] truncate  my-auto text-pretty  ">
-            <span className="  text-2xl   tracking-wide font-semibold outlineText text-white">
+        <div className="   truncate  my-auto text-pretty  ">
+            <span className="  text-xl md:text-2xl  tracking-wide font-semibold outlineText text-white">
               {title}
             </span>
          
 
           <div 
-          className="flex  flex-wrap justify-start w-full gap-2 p-4">
+          className="flex  flex-wrap justify-start w-full gap-2   p-4">
             {subtitle.split(",").map((el,id)=><div key={id} className="rounded-md text-slate-400 flex py-1 px-2 bg-light-primary dark:bg-dark-primary">
               {el}
               <img className="w-9 h-5 my-auto" src={`${skillList[skillList.findIndex(skill=>skill.title.toLocaleLowerCase().replace(/\s+/g, "").trim()==el.toLocaleLowerCase().replace(/\s+/g, "").trim())]?.skillIcon}`} alt="skill" />
