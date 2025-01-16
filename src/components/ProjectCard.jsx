@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./Style/ProjectCard.css";
 import ProjectVisitOption from "./ProjectVisitOption";
+import { skillList } from "../Constants/data";
 
 const ProjectCard = (props) => {
-  const { images, title } = props;
+  const { images, title ,description , subtitle } = props;
 
   const [uniqueId] = useState(
     () => `bgImg-${Math.random().toString(36).substr(2, 9)}`
@@ -39,6 +40,7 @@ const ProjectCard = (props) => {
         group 
         before:hover:scale-95
         before:hover:h-72
+        
         before:hover:w-80 
         before:hover:rounded-b-2xl
         before:transition-all
@@ -51,6 +53,7 @@ const ProjectCard = (props) => {
         w-[99%] h-72 
         relative
         bg-slate-50 
+      
         flex 
         flex-col
         items-center
@@ -73,8 +76,8 @@ const ProjectCard = (props) => {
           group-hover:-translate-y-[-10px]
           transition-all
             duration-500
-            
-          
+            relative top-72 group-hover:top-16
+            backdrop-blur-lg shadow-lg p-2 rounded-xl shadow-black  dark:bg-dark-secondary
             "
         >
           {" "}
@@ -87,6 +90,21 @@ const ProjectCard = (props) => {
             </span>
           </div>
         </div>
+        <div className=" min-h-[66px] truncate  my-auto text-pretty  ">
+            <span className="  text-2xl   tracking-wide font-semibold outlineText text-white">
+              {title}
+            </span>
+         
+
+          <div 
+          className="flex  flex-wrap justify-start w-full gap-2 p-4">
+            {subtitle.split(",").map((el,id)=><div key={id} className="rounded-md text-slate-400 flex py-1 px-2 bg-light-primary dark:bg-dark-primary">
+              {el}
+              <img className="w-9 h-5 my-auto" src={`${skillList[skillList.findIndex(skill=>skill.title.toLocaleLowerCase().replace(/\s+/g, "").trim()==el.toLocaleLowerCase().replace(/\s+/g, "").trim())]?.skillIcon}`} alt="skill" />
+              
+              </div>)}
+              </div>
+          </div>
       </div>
     </div>
   );

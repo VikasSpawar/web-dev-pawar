@@ -135,7 +135,7 @@ export const skillList= [
   },
   {
     skillIcon: "/assets/svg/react.svg",
-    title: "React JS",
+    title: "ReactJS",
     level: "Intermediate",
     description: "ReactJS is a free and open-source front-end JavaScript library for building user interfaces based on components.",
   },
@@ -197,13 +197,13 @@ export const skillList= [
   },
   {
     skillIcon: "/assets/svg/node js.svg",
-    title: "Node JS",
+    title: "NodeJS",
     level: "Basic",
     description: "Node.js is an asynchronous event-driven JavaScript runtime designed to build scalable network applications.",
   },
   {
     skillIcon: "/assets/svg/express.svg",
-    title: 'Express.js',
+    title: 'Express',
     level: "Advanced", 
     description: "Express.js is a popular web framework built on top of Node.js that provides a robust set of features for building web applications and APIs. It simplifies server-side development by offering functionalities like routing, middleware, and templating."
   }
@@ -296,45 +296,45 @@ export const servicesList = [
 export const portfolioList = [
   {
     title: "Razer.com Clone",
-    subtitle: "MERN Stack (MongoDB, Express, React, Node.js)",
+    subtitle: " MongoDB, Express, ReactJS, NodeJS",
     img: '/assets/images/Razer-clone-homepage.webp', 
     link:'https://razer-clone-beta.vercel.app/',
     git_repo:'https://github.com/VikasSpawar/razer-clone',
     description:
-      "This is a clone of Razer.com built using the MERN stack (MongoDB, Express, React, and Node.js). It provides functionalities similar to the original website, potentially including product listings, user accounts, shopping cart features, and a checkout process. The specific features can be further elaborated upon based on the project's scope." // Description with placeholders
+      "This is a clone of Razer.com built using the MERN stack (MongoDB, Express, ReactJS, and Node.js). It provides functionalities similar to the original website, potentially including product listings, user accounts, shopping cart features, and a checkout process. The specific features can be further elaborated upon based on the project's scope." // Description with placeholders
   },
   {
     title: "En10 ( inspired by hotstar)",
-    subtitle: "NextJS, ReactJS, TailwindCSS , SwiperJS",
+    subtitle: "NextJS, ReactJS,Tailwind CSS, SwiperJS",
     img: '/assets/images/En10-homepage.webp', 
     link:'https://en10-five.vercel.app/',
     git_repo:'https://github.com/VikasSpawar/en10',
     description:
-      "This project is a modern streaming platform inspired by Hotstar, built using Next.js, React.js, TailwindCSS, and SwiperJS. It showcases my ability to create fast, responsive, and visually appealing applications, blending sleek design with smooth functionality." // Description with placeholders
+      "This project is a modern streaming platform inspired by Hotstar, built using Next.js, ReactJS, TailwindCSS, and SwiperJS. It showcases my ability to create fast, responsive, and visually appealing applications, blending sleek design with smooth functionality." // Description with placeholders
   },
   {
   title: "SpacExplore.com",
-  subtitle: "React.js, Redux, Tailwind CSS",
+  subtitle: "ReactJS,Redux,Tailwind CSS",
   img: '/assets/images/spacexplore-homepage.webp',
   link: 'https://spacexplore.vercel.app/',
   git_repo: 'https://github.com/Vikasspawar/spacexplore',
 
   description:
-    "SpacExplore.com is a web application built using React.js, Redux, and Tailwind CSS. It pulls data from the SpaceX API to display information about SpaceX launches, upcoming missions, and other relevant data. Features include real-time launch data, mission details, and spacecraft information. This app aims to provide an interactive and modern way for users to explore SpaceX's space exploration activities." 
+    "SpacExplore.com is a web application built using ReactJS, Redux, and Tailwind CSS. It pulls data from the SpaceX API to display information about SpaceX launches, upcoming missions, and other relevant data. Features include real-time launch data, mission details, and spacecraft information. This app aims to provide an interactive and modern way for users to explore SpaceX's space exploration activities." 
 },
 
   {
     title: "Pro Tasker",
-    subtitle: "React.js",
+    subtitle: "ReactJS, tailwindCSS",
     img: '/assets/images/Pro-tasker-homepage.webp',
     link:'https://pro-tasker-psi.vercel.app/',
     git_repo:'https://github.com/VikasSpawar/Pro_Tasker',
     description:
-      "This is a task management application built using React.js. It allows users to create new tasks, mark tasks as completed or incomplete, delete tasks they no longer need, and edit existing tasks by updating their title and description. This application helps users stay organized and manage their tasks efficiently." // Description with functionalities
+      "This is a task management application built using ReactJS. It allows users to create new tasks, mark tasks as completed or incomplete, delete tasks they no longer need, and edit existing tasks by updating their title and description. This application helps users stay organized and manage their tasks efficiently." // Description with functionalities
   },
   {
     "title": "Urban Company Clone",
-    "subtitle": "React, Node.js, Express, MongoDB", 
+    "subtitle": "ReactJS,NodeJS, Express, MongoDB", 
     "img": "/assets/images/Urban-company-clone-homepage.webp", 
     link:'https://quack-spoon-1626.vercel.app/',
     git_repo:'https://github.com/VikasSpawar/urban-service',
@@ -344,7 +344,7 @@ export const portfolioList = [
   
   {
     title: "Tomtop Clone",
-    subtitle: "HTML, CSS, JavaScript (with e-commerce framework)", 
+    subtitle: "HTML,CSS, JavaScript", 
     img: '/assets/images/Tomtop-clone-homepage.webp', 
     link:'https://frolicking-sprite-ca94e3.netlify.app/',
     git_repo:'https://github.com/VikasSpawar/TomTopCloneByMasai',
@@ -355,7 +355,7 @@ export const portfolioList = [
 
   {
     title: "Lumen5 Clone ",
-    subtitle: "React, Javascrip, ChakraUi , Css", 
+    subtitle: "ReactJS,Javascript,ChakraUi,CSS", 
     img: '/assets/images/Lumen5-clone-homepage.webp', 
     link:'https://lumen5clone.vercel.app/',
     git_repo:'https://github.com/VikasSpawar/lumen5clone',

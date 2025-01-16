@@ -163,7 +163,7 @@ const Portfolio = () => {
         <section className="mb-16 p-6 justify-center  ">
           <div className="">
             <div>
-              <div className=" p-4 grid grid-cols-3 w-full gap-24">
+              <div className=" p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-24">
                 {/* <Slider
                   className="p-2 mx-4  "
                   {...settings}
@@ -176,8 +176,10 @@ const Portfolio = () => {
                           key={i}
                           images={el.img}
                           title={el.title}
+                          description={el.description}
                           link={el.link}
                           git={el.git_repo}
+                          subtitle={el.subtitle}
                         />
                       )
                     })

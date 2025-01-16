@@ -34,16 +34,16 @@
   margin-left: 5px;
 }
 
-.social-btn:hover {
+/* .social-btn:hover {
   background: white;
   width: 150px;
   border-radius: 5px;
-}
+} */
 
-.social-btn:hover span {
+/* .social-btn:hover span {
   padding: 2px;
   width: 80px;
-}
+} */
 
 #link{
   fill: #000000;
