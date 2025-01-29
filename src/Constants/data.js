@@ -240,6 +240,12 @@ export const skillList= [
     level: "Basic",
     description: "Firebase is a platform developed by Google. It is used to build web and mobile applications.",
   },
+  {
+  skillIcon: "/assets/svg/swiperjs.svg",
+  title: "Swiper.js",
+  level: "Intermediate",
+  description: "Swiper.js is a modern touch slider library used to create mobile-friendly and customizable sliders and carousels for web and mobile applications.",
+}
 ];
 
 export const toolList= [
