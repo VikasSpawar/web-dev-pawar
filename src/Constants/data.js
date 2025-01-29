@@ -242,7 +242,7 @@ export const skillList= [
   },
   {
   skillIcon: "/assets/svg/swiperjs.svg",
-  title: "Swiper.js",
+  title: "Swiperjs",
   level: "Intermediate",
   description: "Swiper.js is a modern touch slider library used to create mobile-friendly and customizable sliders and carousels for web and mobile applications.",
 }
