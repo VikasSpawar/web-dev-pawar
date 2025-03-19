@@ -221,7 +221,7 @@ export const skillList= [
     description: "Material UI is a CSS framework that provides React components out-of-the-box and follows Google’s Material Design.",
   },
   {
-    "skillIcon": "/assets/svg/framer-motion.svg", 
+    "skillIcon": "/assets/svg/framermotion.svg", 
     "title": "Framer Motion",
     "level": "Intermediate",  
     "description": "Framer Motion is a powerful library built on top of Framer that adds animation capabilities to web applications. It allows developers to create smooth and performant animations with declarative syntax, enhancing user experience and interactivity."
@@ -314,7 +314,7 @@ export const portfolioList = [
     subtitle: "NextJS, ReactJS,Tailwind CSS, SwiperJS",
     img: '/assets/images/En10-homepage.webp', 
     link:'https://en10-five.vercel.app/',
-    git_repo:'https://github.com/VikasSpawar/en10',
+    git_repo:'',
     description:
       "This project is a modern streaming platform inspired by Hotstar, built using Next.js, ReactJS, TailwindCSS, and SwiperJS. It showcases my ability to create fast, responsive, and visually appealing applications, blending sleek design with smooth functionality." // Description with placeholders
   },
@@ -338,6 +338,7 @@ export const portfolioList = [
     description:
       "This is a task management application built using ReactJS. It allows users to create new tasks, mark tasks as completed or incomplete, delete tasks they no longer need, and edit existing tasks by updating their title and description. This application helps users stay organized and manage their tasks efficiently." // Description with functionalities
   },
+
   {
     "title": "Urban Company Clone",
     "subtitle": "ReactJS,NodeJS, Express, MongoDB", 
@@ -347,7 +348,15 @@ export const portfolioList = [
     "description":
       "This is a clone of Urban Company, a popular on-demand service marketplace. It allows users to browse through a variety of professional services offered by registered service providers, potentially similar to the categories available on the original Urban Company platform. Users can book appointments, manage their bookings, and potentially rate and review service providers. This project demonstrates your skills in building a user-friendly web application with functionalities for user authentication, service browsing and booking, and potentially integrating with payment gateways." // Description with functionalities
   },
-  
+  {
+    title: "React Quiz App",
+    subtitle: "ReactJS, tailwindCSS, Framer motion, javascript",
+    img: '/assets/images/quizz.webp',
+    link:'https://quizz-bay.vercel.app/',
+    git_repo:'https://github.com/VikasSpawar/Quiz-app',
+    description:
+      "A responsive quiz application built with React, Tailwind CSS, and Framer Motion, offering interactive quizzes with smooth animations and a modern UI." // Description with functionalities
+  },
   {
     title: "Tomtop Clone",
     subtitle: "HTML,CSS, JavaScript", 
