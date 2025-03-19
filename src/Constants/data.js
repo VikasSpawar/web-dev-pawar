@@ -319,6 +319,15 @@ export const portfolioList = [
       "This project is a modern streaming platform inspired by Hotstar, built using Next.js, ReactJS, TailwindCSS, and SwiperJS. It showcases my ability to create fast, responsive, and visually appealing applications, blending sleek design with smooth functionality." // Description with placeholders
   },
   {
+    title: "Personal Portfolio",
+    subtitle: "ReactJS,Tailwind CSS, Javascript, Framer motion",
+    img: '/assets/images/Portfolio-homepage.webp', 
+    link:'https://web-dev-vikas.vercel.app/',
+    git_repo:'https://github.com/VikasSpawar/web-dev-pawar',
+    description:
+      "Personal Portfolio build with ReactJS,Tailwind CSS, Javascript and Framer motion " // Description with placeholders
+  },
+  {
   title: "SpacExplore.com",
   subtitle: "ReactJS,Redux,Tailwind CSS",
   img: '/assets/images/spacexplore-homepage.webp',
