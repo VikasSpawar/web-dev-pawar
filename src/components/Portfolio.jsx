@@ -71,7 +71,7 @@ const Portfolio = () => {
 
   return (
     <div
-      className={`min-h-screen bg-light-primary dark:bg-dark-primary text-black dark:text-white transition-all duration-500 py-4`}
+      className={`min-h-screen bg-light-primary  dark:bg-dark-primary text-black dark:text-white transition-all duration-500 py-4`}
     >
       <Element name="home" className="element pt-16 w-full ">
         <div className=" py-4 bg-[url('/wave-haikei.svg')]  bg-cover bg-center lg:flex-row flex-col  flex w-full   justify-around">

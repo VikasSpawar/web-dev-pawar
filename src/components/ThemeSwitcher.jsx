@@ -7,7 +7,13 @@ const ThemeSwitcher = () => {
 
  //variable to get darkMode from local storage
 
-  const [isDarkMode, setIsDarkMode] = useState(JSON.parse(localStorage.getItem('darkMode'))||false);
+  // const [isDarkMode, setIsDarkMode] = useState(()=>{
+  //   let prevMode =JSON.parse(localStorage.getItem('darkMode'))
+  //   prevMode==false ?  false :  true
+  // }
+    
+  // );
+  const [isDarkMode, setIsDarkMode] = useState(JSON.parse(localStorage.getItem('darkMode'))==false ? false : true );
   const { handleToolTip } = useContext(MyContext);
 
   useEffect(() => {
