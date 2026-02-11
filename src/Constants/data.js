@@ -245,6 +245,12 @@ export const skillList= [
   title: "Swiperjs",
   level: "Intermediate",
   description: "Swiper.js is a modern touch slider library used to create mobile-friendly and customizable sliders and carousels for web and mobile applications.",
+},
+  {
+  skillIcon: "/assets/svg/supabase.svg",
+  title: "Supabase",
+  level: "Intermediate",
+  description: "Supabase is an open-source backend platform providing a PostgreSQL database, authentication, storage, and real-time APIs.",
 }
 ];
 
