@@ -301,6 +301,15 @@ export const servicesList = [
 
 export const portfolioList = [
   {
+    title: "AudioTex",
+    subtitle: "ReactJS, Tailwind CSS, Supabase, NodeJS, Express",
+    img: '/assets/images/AudioTex.webp', 
+    link:'https://audiotex-kappa.vercel.app/',
+    git_repo:'https://github.com/VikasSpawar/audiotex',
+    description:
+      "A real-time platform that converts live speech and audio files into text using AI." // Description with placeholders
+  },
+  {
     title: "Razer.com Clone",
     subtitle: " MongoDB, Express, ReactJS, NodeJS",
     img: '/assets/images/Razer-clone-homepage.webp', 
