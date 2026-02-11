@@ -308,7 +308,7 @@ export const servicesList = [
 export const portfolioList = [
   {
     title: "AudioTex",
-    subtitle: "ReactJS, Tailwind CSS, Supabase, NodeJS, Express",
+    subtitle: "ReactJS, Tailwind CSS, Supabase, NodeJS",
     img: '/assets/images/AudioTex.webp', 
     link:'https://audiotex-kappa.vercel.app/',
     git_repo:'https://github.com/VikasSpawar/audiotex',
@@ -316,7 +316,7 @@ export const portfolioList = [
       "A real-time platform that converts live speech and audio files into text using AI." // Description with placeholders
   },
   {
-    title: "Razer.com Clone",
+    title: "Razer Ecommerce",
     subtitle: " MongoDB, Express, ReactJS, NodeJS",
     img: '/assets/images/Razer-clone-homepage.webp', 
     link:'https://razer-clone-beta.vercel.app/',
@@ -343,7 +343,7 @@ export const portfolioList = [
       "Personal Portfolio build with ReactJS,Tailwind CSS, Javascript and Framer motion " // Description with placeholders
   },
   {
-  title: "SpacExplore.com",
+  title: "SpaceXplore.com",
   subtitle: "ReactJS,Redux,Tailwind CSS",
   img: '/assets/images/spacexplore-homepage.webp',
   link: 'https://spacexplore.vercel.app/',
@@ -382,7 +382,7 @@ export const portfolioList = [
       "A responsive quiz application built with React, Tailwind CSS, and Framer Motion, offering interactive quizzes with smooth animations and a modern UI." // Description with functionalities
   },
   {
-    title: "Tomtop Clone",
+    title: "Tomtop E-commerce",
     subtitle: "HTML,CSS, JavaScript", 
     img: '/assets/images/Tomtop-clone-homepage.webp', 
     link:'https://frolicking-sprite-ca94e3.netlify.app/',
