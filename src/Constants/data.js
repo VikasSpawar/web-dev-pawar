@@ -291,6 +291,16 @@ export const toolList= [
 
 
 export const exprienceList = [
+ 
+  {
+    years: "2025 - 2026",
+    work: "Web Developer Intern",
+    time: "Full Time | Work From Home",
+    company: "Labmentix Pvt Ltd",
+    description: "Completed a professional web development internship at Labmentix where I contributed to real-world applications, implemented responsive designs, and collaborated with development teams to deliver efficient solutions."
+  },
+
+
 
 ];
 
